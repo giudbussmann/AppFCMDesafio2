@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F312F"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/lbResposta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Sua FCM é de..."
+            android:textAlignment="center"
+            android:textColor="#FFC107"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="48dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Faixas de Frequência Cardíaca:"
+            android:textColor="#848484"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/lb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Caminhada Rápida: 55% a 60% da FCM"
+            android:textColor="#848484"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lbResultado1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="***"
+            android:textColor="#FF9800"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/lb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Trote: 65% a 70% da FCM"
+            android:textColor="#848484"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lbResultado2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="***"
+            android:textColor="#FF9800"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/lb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Corrida Leve: 75% a 80% da FCM"
+            android:textColor="#848484"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lbResultado3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="***"
+            android:textColor="#FF9800"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/lb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Corrida Moderada: 85% a 90% da FCM"
+            android:textColor="#848484"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lbResultado4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="***"
+            android:textColor="#FF9800"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/lb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Corrida Intensa: acima de 95% da FCM"
+            android:textColor="#848484"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/lbResultado5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="***"
+            android:textColor="#FF9800"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

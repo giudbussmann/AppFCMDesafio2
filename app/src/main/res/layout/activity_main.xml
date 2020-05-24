@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F312F"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/lbAPPFCM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="FCM calculator"
+            android:textAlignment="center"
+            android:textColor="#FFC107"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbIntrodução"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Muitos praticantes de esporte necessitam de informações básicas acerca dos limites de frequência cardíaca, na qual varia com a idade e com o nível de esforço da atividade física."
+            android:textAlignment="center"
+            android:textColor="#848484"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/lbInstrução"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Insira sua idade abaixo e descubra a sua FCM!"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Insira a sua idade aqui"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="#FF9800"
+            android:fontFamily="sans-serif-condensed"
+            android:onClick="onClick"
+            android:text="CALCULAR"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
